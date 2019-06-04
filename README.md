@@ -20,16 +20,23 @@ A new browser window should automatically open displaying the app. If it doesn't
 
 My Bookshelf is a book management app that allows you to organize books into three categories: read, want to read, and currently reading. You can change or remove a book from its bookshelf by clicking the light blue button on the book's cover.
 
-![](demo/change-shelf-demo.gif)
+<!-- ![](demo/change-shelf-demo.gif) -->
+<p align="center">
+  <img width="460" height="300" src="demo/change-shelf-demo.gif">
+</p>
 
-To add a new book into a bookshelf, click the button on the bottom right hand corner of the screen.
+To add a new book into a bookshelf, click the button on the bottom right hand corner of the screen. Enter your search for a genre, author, or subject and up to 20 items will be returned.
 
-![](demo/add-book-demo.gif)
+_Note: The backend API has a fixed set of [search terms](SEARCH_TERMS.md) -- see below for search options._
 
-### Backend API
+<!-- ![](demo/add-book-demo.gif) -->
+<p align="center">
+  <img width="460" height="300" src="demo/change-shelf-demo.gif">
+</p>
 
-The backend API uses a fixed set of cached search results and utilizes a set of search terms found in [SEARCH_TERMS.md](SEARCH_TERMS.md). The list contains the only searchable terms that work with the backend.
+#### Search Terms
 
+'Android', 'Art', 'Artificial Intelligence', 'Astronomy', 'Austen', 'Baseball', 'Basketball', 'Bhagat', 'Biography', 'Brief', 'Business', 'Camus', 'Cervantes', 'Christie', 'Classics', 'Comics', 'Cook', 'Cricket', 'Cycling', 'Desai', 'Design', 'Development', 'Digital Marketing', 'Drama', 'Drawing', 'Dumas', 'Education', 'Everything', 'Fantasy', 'Film', 'Finance', 'First', 'Fitness', 'Football', 'Future', 'Games', 'Gandhi', 'Homer', 'Horror', 'Hugo', 'Ibsen', 'Journey', 'Kafka', 'King', 'Lahiri', 'Larsson', 'Learn', 'Literary Fiction', 'Make', 'Manage', 'Marquez', 'Money', 'Mystery', 'Negotiate', 'Painting', 'Philosophy', 'Photography', 'Poetry', 'Production', 'Programming', 'React', 'Redux', 'River', 'Robotics', 'Rowling', 'Satire', 'Science Fiction', 'Shakespeare', 'Singh', 'Swimming', 'Tale', 'Thrun', 'Time', 'Tolstoy', 'Travel', 'Ultimate', 'Virtual Reality', 'Web Development', 'iOS'
 
 # Future Releases
 
