@@ -7,13 +7,14 @@ body {
 }
 
 body, .app {
-  background: white;
+  background: rgb(255, 255, 255);
 }
 
 /* main page */
 
 .list-books-title {
   padding: 10px 0;
+  margin-bottom: 30px;
   background: rgb(94, 156, 194); 
   text-align: left;
   padding-left: 20px;
@@ -41,7 +42,8 @@ body, .app {
 }
 
 .bookshelf-title {
-  border-bottom: 1px solid #dedede;
+  border-top: 1px solid #dedede;
+  padding-top: 10px;
   font-size: 20px;
   font-weight: 40;
 }
