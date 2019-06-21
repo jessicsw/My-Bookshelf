@@ -34,4 +34,4 @@ const changeShelf = props => {
 }
 
 
-export default changeShelf
+export default changeShelf;
